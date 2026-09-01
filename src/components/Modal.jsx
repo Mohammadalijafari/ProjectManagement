@@ -5,14 +5,14 @@ export default function Modal({ children, ref, buttonCaption }) {
   const dialog = useRef();
   useImperativeHandle(ref, () => {
     return {
-      oepn() {
+      open() {
         dialog.current.showModal();
       },
     };
   });
 
   return createPortal(
-    <dialog>
+    <dialog ref={dialog}>
       {children}
       <form method="dialog">
         <button>{buttonCaption}</button>
