@@ -14,7 +14,7 @@ export default function NewProject({ onAdd }) {
     // validation ...
 
     onAdd({
-      title: enteredDescription,
+      title: enteredTitle,
       description: enteredDescription,
       dueDate: enteredDueDate,
     });
