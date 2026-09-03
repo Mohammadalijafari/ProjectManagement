@@ -1,5 +1,4 @@
 import { useState } from "react";
-import Button from "./Button.jsx";
 
 export default function NewTask({ onAdd }) {
   const [enteredTask, setEnteredTask] = useState("");
