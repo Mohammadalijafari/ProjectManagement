@@ -17,10 +17,10 @@ export default function ProjectsSidebar({
       <ul className="mt-8">
         {projects.map((projects) => {
           let cssClasses =
-            "w-full text-left px-2 py-1 rounded-sm my-1  hover:text-stone-200  hover:rounded-md hover:bg-stone-600";
+            "w-full text-left px-2 py-1 rounded-md my-1  hover:text-stone-200  hover:rounded-md hover:bg-stone-600";
 
           if (projects.id === selectedProjectId) {
-            cssClasses += " bg-stone-800 text-stone-600";
+            cssClasses += " bg-stone-600 text-stone-400 rounded-md";
           } else {
             cssClasses += " text-stone-400";
           }

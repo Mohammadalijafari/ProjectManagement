@@ -21,7 +21,7 @@ export default function SelectedProject({
             {project.title}
           </h1>
           <button
-            className="text-stone-600 hover:text-stone-950"
+            className="bg-red-500 px-1 py-1 rounded-md text-stone-200 hover:bg-red-600"
             onClick={onDelete}
           >
             Delete

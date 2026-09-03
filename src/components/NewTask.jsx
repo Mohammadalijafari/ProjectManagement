@@ -2,13 +2,16 @@ import { useState } from "react";
 import Button from "./Button.jsx";
 
 export default function NewTask({ onAdd }) {
-  const [enteredTask, setEnteredTask] = useState();
+  const [enteredTask, setEnteredTask] = useState("");
 
   function handleChange(event) {
     setEnteredTask(event.target.value);
   }
 
   function handleClick() {
+    if (enteredTask.trim() === "") {
+      return;
+    }
     onAdd(enteredTask);
     setEnteredTask("");
   }
@@ -21,7 +24,12 @@ export default function NewTask({ onAdd }) {
         onChange={handleChange}
         value={enteredTask}
       />
-      <Button onClick={handleClick}>Add Task</Button>
+      <button
+        className="text-md bg-stone-600 text-stone-200 px-1 py-[5px] rounded-md hover:bg-stone-800"
+        onClick={handleClick}
+      >
+        Add Task
+      </button>
     </div>
   );
 }
