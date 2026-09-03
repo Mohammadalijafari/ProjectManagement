@@ -1,7 +1,7 @@
 📋 Project Management
 A modern and intuitive Project Management application built with React, Vite, and Tailwind CSS.
 The application allows users to create and manage projects, organize tasks within each project, and keep track of important project information such as descriptions and due dates.
-============================================================================
+
 ✨ Features
 📁 Create new projects
 📝 Add project descriptions
@@ -22,7 +22,8 @@ Tailwind CSS — Styling
 JavaScript / JSX — Application logic
 ESLint — Code quality
 PostCSS — CSS processing
-============================================================================
+
+
 🚀 Getting Started
 Prerequisites
 Make sure you have Node.js and npm installed.
@@ -45,7 +46,8 @@ npm run dev
 
 Vite will provide a local development URL in your terminal.
 Open that URL in your browser to start using the application.
-============================================================================
+
+
 📦 Available Scripts
 Start Development Server
 npm run dev
@@ -63,7 +65,8 @@ Run ESLint
 npm run lint
 
 Checks the project for linting and code-quality issues.
-============================================================================
+
+
 🔄 How to Use
 Create a Project
 Click Add Project in the sidebar.
@@ -84,7 +87,8 @@ Delete a Task
 Use the delete/clear action associated with a task to remove it.
 Delete a Project
 Open a project and use the Delete action to remove it.
-============================================================================
+
+
 🎨 Styling
 The application uses Tailwind CSS for its user interface.
 Tailwind provides utility classes for:
@@ -96,7 +100,8 @@ Borders
 Hover states
 Responsive design
 The project also uses PostCSS as part of its CSS processing pipeline.
-============================================================================
+
+
 🔮 Future Improvements
 Some potential improvements for future versions include:
  Save projects to localStorage
@@ -115,7 +120,8 @@ Some potential improvements for future versions include:
  Dark mode
  Automated tests
  Deployment
- ============================================================================
+
+ 
 🤝 Contributing
 Contributions are welcome!
 If you'd like to contribute:
@@ -138,7 +144,8 @@ Push your branch.
 git push origin feature/my-feature
 
 Open a Pull Request.
-============================================================================
+
+
 🐛 Bug Reports
 If you find a bug, please open an issue and include:
 A description of the problem
@@ -149,14 +156,17 @@ Screenshots, if applicable
 📄 License
 No license is currently included in this repository.
 If you plan to distribute the project as open-source software, consider adding an appropriate license.
-============================================================================
+
+
 👨‍💻 Author
 Mohammadali Jafari
 GitHub: Mohammadalijafari
-============================================================================
+
+
 ⭐ Support
 If you like this project, consider giving it a ⭐ on GitHub.
 Repository:
 https://github.com/Mohammadalijafari/ProjectManagement
-============================================================================
+
+
 <p align="center"> Built with ❤️ using React, Vite & Tailwind CSS </p>
